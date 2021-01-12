@@ -1,0 +1,92 @@
+body {
+    width: 80%;
+    margin: auto;
+    background-color: darkgrey;
+}
+h1, h2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.quienes {
+    border: solid 1px black;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+
+}
+
+.formulario {
+    width: 50%;
+    margin: auto;
+}
+
+.formulario-final {
+    width: 100%;
+}
+
+input[type=text],  input[type=date], input[type=password], select, option, label    {
+width: 100%;
+padding: 4px 10px;
+margin: 8px 0;
+border-radius: 4px;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+
+}
+
+input[type=text]:hover, input[type=password]:hover, select:hover {
+background-color:darkgray;
+color: black;
+}
+
+select {       
+-webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: content-box;    /* Firefox, other Gecko */
+box-sizing: content-box;         /* Opera/IE 8+ */
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p,  .checkmark {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    height: 50px;
+    font-weight: 700;
+    border-radius: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn:hover {
+background-color: darkgrey;
+color: white;
+
+}   
+
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML con efectos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1>Bienvenido</h1>
+    <h2>Registrate ahora y unete a la comunidad</h2>
+
+    <div class="container">
+
+    <div class="quienes">
+        <h3>Quien eres?</h3>
+        <div class="formulario">
+            <form action="formulario.html">
+                <label for="name">Nombre</label>
+                <input type="text"  placeholder="Escribe tu nombre completo">
+                <label for="surname">Apellido</label>
+                <input type="text"  placeholder="Escribe tu apellido">
+                <label for="email">Correo Electronico</label>
+                <input type="text"  placeholder="Escribe tu email">
+                <label for="name">Fecha de nacimiento</label>
+                <input type="date">
+            </form>
+        </div>
+    </div>
+
+    <div class="quienes">
+        <h3>De donde eres?</h3>
+        <div class="formulario">
+            <form action="formulario.html">
+                <label for="ciudad">Ciudad</label>
+                <input type="text" placeholder="Escribe tu ciudad">
+                <label for="surname">Codigo Postal</label>
+                <input type="text" placeholder="Escribe tu codigo postal">
+                <label for="country">Pais</label>
+                <select name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+            </form>
+        </div>
+    </div>
+
+    <div class="quienes">
+        <h3>Como quieres iniciar sesion?</h3>
+        <div class="formulario">
+            <form action="formulario.html">
+                <label for="username">Nombre de Usuario</label>
+                <input type="text" placeholder="Tu nombre de usuario">
+                <label for="password">Contrasena</label>
+                <input type="password" placeholder="Tu contrasena">
+                <label for="repeatpassword">Vuelve a escribir la contrasena</label>
+                <input type="password"  placeholder="Escribe de nuevo tu contrasena">
+            </form>
+        </div>
+    </div>
+
+    
+    <div class="quienes">
+        <h3>Condiciones de registro</h3>
+        <p>Deseo suscribirme al newsletter</p>
+        <div class="formulario-final">
+            <div class="checkboxes">
+                <input type="checkbox">
+                <span class="checkmark">Una vez al dia</span>
+                <input type="checkbox">
+                <span class="checkmark">Una vez a la semana</span>
+                <input type="checkbox">
+                <span class="checkmark">Una vez al mes</span>
+            </div>
+            <div class="line">
+            <input type="checkbox">
+            <span class="checkmark">Acepto el acuerdo de servicio y la declaracion de privacidad</span>   
+            </div>
+        </div>
+    </div>
+
+    <input type="button" value="Crear cuenta" class="btn">
+    
+    </div>
+    
+</body>
+</html>
