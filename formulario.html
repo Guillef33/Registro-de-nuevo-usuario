@@ -22,9 +22,12 @@
                 <label for="surname">Apellido</label>
                 <input type="text"  placeholder="Escribe tu apellido">
                 <label for="email">Correo Electronico</label>
-                <input type="text"  placeholder="Escribe tu email">
+                <input type="email"  placeholder="Escribe tu email">
                 <label for="name">Fecha de nacimiento</label>
                 <input type="date">
+                <label for="file-upload" class="custom-file-upload">Subir tu DNI</label>
+                <!--- <input type="file" class="custom-file-upload">  -->
+                <input id="file-upload" type="file"/>
             </form>
         </div>
     </div>
@@ -38,7 +41,7 @@
                 <label for="surname">Codigo Postal</label>
                 <input type="text" placeholder="Escribe tu codigo postal">
                 <label for="country">Pais</label>
-                <select name="country">
+                <select name="country" class="country">
                     <option value="australia">Australia</option>
                     <option value="canada">Canada</option>
                     <option value="usa">USA</option>
