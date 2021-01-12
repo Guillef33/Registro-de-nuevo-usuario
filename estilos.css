@@ -55,6 +55,12 @@ background-color:darkgray;
 color: black;
 }
 
+
+input[type=text]:focus, input[type=password]:focus, select:focus {
+    background-color:yellow;
+    color: black;
+    }
+
 select {       
 -webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
 -moz-box-sizing: content-box;    /* Firefox, other Gecko */
