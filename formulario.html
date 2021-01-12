@@ -18,16 +18,16 @@
         <div class="formulario">
             <form action="formulario.html">
                 <label for="name">Nombre</label>
-                <input type="text"  placeholder="Escribe tu nombre completo">
+                <input type="text"  placeholder="Escribe tu nombre completo" id="nombre">
                 <label for="surname">Apellido</label>
-                <input type="text"  placeholder="Escribe tu apellido">
+                <input type="text"  placeholder="Escribe tu apellido" id="apellido">
                 <label for="email">Correo Electronico</label>
-                <input type="email"  placeholder="Escribe tu email">
+                <input type="email"  placeholder="Escribe tu email" id="email">
                 <label for="name">Fecha de nacimiento</label>
                 <input type="date">
                 <label for="file-upload" class="custom-file-upload">Subir tu DNI</label>
                 <!--- <input type="file" class="custom-file-upload">  -->
-                <input id="file-upload" type="file"/>
+                <input id="file-upload" type="file"id="cv"/>
             </form>
         </div>
     </div>
@@ -37,11 +37,11 @@
         <div class="formulario">
             <form action="formulario.html">
                 <label for="ciudad">Ciudad</label>
-                <input type="text" placeholder="Escribe tu ciudad">
+                <input type="text" placeholder="Escribe tu ciudad" id="ciudad">
                 <label for="surname">Codigo Postal</label>
-                <input type="text" placeholder="Escribe tu codigo postal">
+                <input type="text" placeholder="Escribe tu codigo postal" id="codigoPostal">
                 <label for="country">Pais</label>
-                <select name="country" class="country">
+                <select name="country" id="country">
                     <option value="australia">Australia</option>
                     <option value="canada">Canada</option>
                     <option value="usa">USA</option>
