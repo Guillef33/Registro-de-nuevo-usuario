@@ -13,3 +13,14 @@ document.getElementById("mes").onclick = function(){
 
 
 
+document.querySelector("#country").onchange = function(){
+	console.log(this.value);
+	if (this.value != 0) {
+		this.style.color = "black";
+		this.style.fontStyle = "normal";
+	}
+	else{
+		this.style.color = "gray";
+		this.style.fontStyle = "italic";
+	}
+}
