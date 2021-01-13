@@ -7,8 +7,6 @@ body {
 /* Titulos y texto */
 h1, h2 {
     text-align: center;
-    padding: 0;
-    margin: 0;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -37,6 +35,13 @@ p,.checkmark {
 }
 
 /* Main */
+
+/*El borde y la sombra para dos elementos (seleccion multiple)
+Nota: recordemos que todos los elementos tiene algunos estilos por defecto , ya que input y select tiene diferentes estilos de border, si no le ponemos un borde en nuestro estilo luciran diferente, con el codigo de abajo luciran igual */
+input,select{
+    border:1px #202020 solid;
+    box-shadow: 2px 2px 5px black;
+}
 
 .quienes {
     border: solid 1px black;
@@ -118,6 +123,10 @@ input::placeholder {
     font-size: 1em;
     font-style: italic;
   }
+select{
+    font-style: italic;
+    color:gray;
+}
 
 .custom-file-upload {
     border: 2px solid black;
