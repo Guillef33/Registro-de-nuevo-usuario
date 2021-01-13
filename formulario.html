@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario HTML con efectos</title>
     <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -42,6 +43,7 @@
                 <input type="text" placeholder="Escribe tu codigo postal" id="codigoPostal">
                 <label for="country">Pais</label>
                 <select name="country" id="country">
+                    <option value="0">Seleccionar tu pais</option>
                     <option value="australia">Australia</option>
                     <option value="argentina">Argentina</option>
                     <option value="canada">Canada</option>
@@ -72,10 +74,10 @@
         <div class="formulario-final">
             <div class="checkboxes">
                 <input type="checkbox">
-                <span class="checkmark">Una vez al dia</span>
-                <input type="checkbox">
+                <span class="checkmark" id="dia">Una vez al dia</span>
+                <input type="checkbox" id="semana">
                 <span class="checkmark">Una vez a la semana</span>
-                <input type="checkbox">
+                <input type="checkbox" id="mes">
                 <span class="checkmark">Una vez al mes</span>
             </div>
             <div class="line">
@@ -86,7 +88,7 @@
     </div>
 
     <input type="button" value="Crear cuenta" class="btn">
-    
+     
     </div>
     
 </body>
